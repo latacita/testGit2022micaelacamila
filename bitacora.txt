@@ -6,3 +6,7 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+22	git add bitacora.txt
+23	git commit -m "Paso23"
+24	git checkout master
+25						la fusión se haría por el método fast forward ya que master no tiene commits mientras se trabajaba en la rama Historia001
