@@ -10,3 +10,9 @@
 23	git commit -m "Paso23"
 24	git checkout master
 25						la fusión se haría por el método fast forward ya que master no tiene commits mientras se trabajaba en la rama Historia001
+26	git add bitacora.txt
+	git commit -m "Paso26"
+27	git tag RespuestaPreguntaFusion
+28	git push				operación rechazada, actualizaciones del repositorio remoto que no estan en el local
+	git pull 				merge del tipo recursivo, se añade la actualización del repositorio remoto
+	git push 
