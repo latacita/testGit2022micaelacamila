@@ -32,3 +32,8 @@
 28	git push				operación rechazada, actualizaciones del repositorio remoto que no estan en el local
 	git pull 				merge del tipo recursivo, se añade la actualización del repositorio remoto
 	git push 
+30	git add bitacora.txt
+	git commit -m "Paso30"
+31	git merge Historia001		merge del tipo recursivo, esta fusión presenta conflictos que deben ser solucionados
+	git add bitacora.txt
+	git commit -m "Resolver conflicto de la fusion"
